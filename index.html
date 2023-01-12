@@ -16,14 +16,15 @@
         <div class="container">
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <div class="header-text">
+                <img src="css/img/IMG_7186.JPG" class="profile-picture">
                 <h1>Hello, I'm Dominic Bernardo </h1>
                 <p>Full-Stack Software Engineer</p>
             </div>
@@ -34,7 +35,7 @@
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="#">
+                    <img src="css/img/IMG_7186.JPG">
                 </div>
                 <div class="about-col-2">
                     <h2 class="sub-title">About Me</h2>
@@ -58,6 +59,7 @@
     </div>
     <!-- -----------skills section-------- -->
     <div id="skills">
+        <h2>Skills</h2>
         <div class="container1">
             <div class='skills-icon html-icon'>
                 <i class="devicon-html5-plain"></i>
@@ -80,11 +82,11 @@
                 <p class="skills-icon-name">React</p>
             </div>
             <div class='skills-icon mongo-icon'>
-                <i class="devicon-mongodb-plain-wordmark colored"></i>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" />
                 <p class="skills-icon-name">MongoDB</p>
             </div>
             <div class='skills-icon python-icon'>
-                <i class="devicon-python-plain-wordmark colored"></i>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <p class="skills-icon-name">Python</p>
             </div>
             <div class='skills-icon sql-icon'>
@@ -126,30 +128,32 @@
     </div>
     <!---------------Contact--------------- -->
     <div id="contact">
-        <div class="container">
+        <div class="container2">
             <div class="row">
                 <div class="contact-left">
                     <h2 class="" sub-title>Contact Me</h2>
                     <p>dominicvbern@gmail.com</p>
+                    <p>818-644-9313</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/dominic-v-bernardo-5853b9240/">
+                            <i class="devicon-linkedin-plain"></i>
+                        </a>
+                        <a href="https://github.com/dvbernardo97?tab=repositories">
+                            <i class="devicon-github-original-wordmark"></i>
+                        </a>
+                    </div>
                 </div>
-                <div class="contact-right"></div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
-    <!--REACTOR section ----------->
-    <!-- <div class="reactor">
-        <div class="triangle"></div>
-        <div class="circle-1"><span></span><span></span><span></span><span></span></div>
-        <div class="circle-2">
-            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-        </div>
-        <div class="circle-3"></div>
-        <div class="circle-4"><span></span><span></span><span></span></div>
-        <div class="circle-5"><span></span><span></span><span></span></div>
-        <div class="circle-6"></div>
-        <div class="circle-7"></div>
-        <div class="circle-8"><span></span><span></span><span></span></div>
-    </div>  -->
 </body>
 
 </html>
